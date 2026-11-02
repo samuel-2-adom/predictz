@@ -4,3 +4,4 @@ data/
 __pycache__/
 *.pyc
 predictz.egg-info/
+PROJECT_NOTES.md
