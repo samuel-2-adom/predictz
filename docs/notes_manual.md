@@ -63,11 +63,12 @@ the focus stays on football.
   (0.5892 vs Elo 0.5874), shots-on-target features (0.5882), calibrated Elo
   (0.5873). Elo + Bet365 odds blend (0.5773) did not beat odds alone (0.5759),
   so no live odds feed is needed.
-- First live scoring (31 Oct PL matches): 8 scored, Brier 0.6695, accuracy 50%.
-  Far too few to judge. Want about 100 scored before drawing conclusions.
+- Live scoring on 7 Nov 2026: elo-v2 21 scored, Brier 0.6529, accuracy 52.4%
+  (PL 12: 0.6086, PD 4: 0.6425, SA 5: 0.7676). Still far too few to judge;
+  wait for about 100 scored predictions.
 
 ## Plans
-- Check in on Thursday 5 Nov 2026 with the output of sync, score and review.
+- Check in again after the next weekend or two of matches (sync, score, review).
 - Optional later: Bundesliga (CSV D1, API BL1) and Ligue 1 (CSV F1, API FL1),
   with a team-mapping check each time.
 - Web UI only after the CLI and the track record are solid.
